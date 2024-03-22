@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-02</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
+
+    <style>
+        body {
+            overflow: hidden;
+
+        }
+
+        div {
+            width: 10px;
+            aspect-ratio: 1/1;
+            border: 3px solid deeppink;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            margin: auto;
+
+            position: absolute;
+
+            border-radius: 100%;
+            animation-name: anime;
+
+            animation-duration: 2s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+        }
+
+        /*
+                @keyframes anime {
+                    0% {
+
+                    }
+                    25% {
+                        width: 50px;
+                        opacity: 75%;
+                    }
+                    50% {
+                        width: 100px;
+                        opacity: 50%;
+                    }
+                    75% {
+                        width: 150px;
+                        opacity:25% ;
+
+                    }
+                    100% {
+                        width: 200px;
+                        opacity:0% ;
+
+                    }*/
+
+        @keyframes anime {
+
+            from{
+                width: 10px;
+                height: 10px;
+            }
+            to {
+                width: 300px;
+                height: 300px;
+                opacity: 0;
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+<div></div>
+
+
+<script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+
+</body>
+</html>
